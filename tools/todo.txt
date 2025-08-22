@@ -1,0 +1,4 @@
+# TODO list 20250822 fekerr
+format .md files to 80 characters
+
+decide todo/dodo/run/retry methods
