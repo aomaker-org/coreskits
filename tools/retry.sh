@@ -10,4 +10,4 @@ RETRY_CMD='/home/fekerr/src/jules/aomaker02/runpy/run.py doit'
 echo ${PWD}, ${0}, ${@}: "Aliases and SSH_PUB loaded from retry.sh"
 
 ${RETRY_CMD} list
-${RETRY_CMD} build_docker
+${RETRY_CMD} build_docker --ssh-key ${SSH_PUB}
